@@ -12,8 +12,6 @@ These instructions will get you a copy of the project up and running on your loc
 - Azure CLI : https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
 - Terraform : https://www.terraform.io/downloads.html
 
-```
-
 ### Installing
 
 You will have to clone the repo and instantiate the different infrastructure part one by one in the correct order.
