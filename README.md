@@ -1,6 +1,15 @@
 # Cloud Stack Terraform
 
 This is the Terraform code of my own application stack based on Azure Cloud. 
+The application deployed by Terraform are managed in this github repo : https://github.com/vmisson/cloud-stack-docker
+
+This infrastructure cost arround 1,37€ per day (North Europe). For this price you will have : 
+- Cloud Drive
+- Password Manager
+- Mail Server
+- RSS aggregator
+
+Auto-update, management, HTTPS and moniroting are included for all those services. 
 
 ## Getting Started
 
@@ -15,6 +24,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 
 You will have to clone the repo and instantiate the different infrastructure part one by one in the correct order.
+By default the infrastructure will be deployed in North Europe but it can be changed in varaibles.tf file. 
 
 ```
 git clone https://github.com/vmisson/cloud-stack-terraform.git
@@ -25,7 +35,7 @@ terraform apply
 cd ../storage
 terraform apply
 cd ../compute
-terraform applu
+terraform apply
 ```
 
 Wait for few minutes and must have your stack fully ready to be used. 
